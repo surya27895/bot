@@ -53,7 +53,7 @@ while True:
                             rslt = random.choice(pilih)
                             client.sendText(msg.to, str(rslt))
 			if text.lower() == '/battle':
-			    client.sendText(msg.to, "/join")
+                            client.sendText(msg.to, "/join")
                         else:
                             pass
                     else:
