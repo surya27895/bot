@@ -76,7 +76,7 @@ while True:
                                 client.sendText(receiver, "TestSpeed")
                                 elapsed_time = time.time() - start
                                 client.sendText(receiver, "%sdetik" % (elapsed_time))
-                             elif text.lower() == '/battle':
+                            elif text.lower() == '/battle':
                                 client.sendText(receiver, "/join")
                             elif 'spic' in text.lower():
                                 try:
