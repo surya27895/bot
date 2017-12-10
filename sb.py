@@ -52,7 +52,7 @@ while True:
                             pilih = ['/join']
                             rslt = random.choice(pilih)
                             client.sendText(msg.to, str(rslt))
-                        if msg.text = "/battle":
+                        if msg.text == "/battle":
                             client.sendText(msg.to, "/join")
                         else:
                             pass
