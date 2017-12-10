@@ -77,7 +77,6 @@ while True:
                                 elapsed_time = time.time() - start
                                 client.sendText(receiver, "%sdetik" % (elapsed_time))
                              elif text.lower() == '/battle':
-                                start = time.time()
                                 client.sendText(receiver, "/join")
                             elif 'spic' in text.lower():
                                 try:
