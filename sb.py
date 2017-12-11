@@ -53,6 +53,7 @@ while True:
                             #rslt = random.choice(pilih)
                             #client.sendText(msg.to, str(rslt))
                         if msg.text == "/battle":
+                            time.sleep(1)
                             client.sendText(msg.to, "/join")
                         else:
                             pass
