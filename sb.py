@@ -52,8 +52,8 @@ while True:
                             #pilih = ['/join']
                             #rslt = random.choice(pilih)
                             #client.sendText(msg.to, str(rslt))
-                        if msg.text == "/battle":
-                            time.sleep(6)
+                        if msg.text == "/resetbot":
+                            time.sleep(10)
                             client.sendText(msg.to, "/join")
                         else:
                             pass
