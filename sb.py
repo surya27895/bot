@@ -52,8 +52,8 @@ while True:
                             #pilih = ['/join']
                             #rslt = random.choice(pilih)
                             #client.sendText(msg.to, str(rslt))
-                        if msg.text == "/resetbot":
-                            time.sleep(10)
+                        if msg.text == "Pertempuran akan dimulai dalam 1 Menit. Ketik /join untuk mengikuti pertempuran":
+                            time.sleep(3)
                             client.sendText(msg.to, "/join")
                         else:
                             pass
