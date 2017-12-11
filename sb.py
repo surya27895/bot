@@ -48,10 +48,10 @@ while True:
                 if msg.text != None:
                     if msg.toType == 2:
                         may = client.getProfile().mid
-                        if may in str(msg.contentMetadata):
-                            pilih = ['/join']
-                            rslt = random.choice(pilih)
-                            client.sendText(msg.to, str(rslt))
+                        #if may in str(msg.contentMetadata):
+                            #pilih = ['/join']
+                            #rslt = random.choice(pilih)
+                            #client.sendText(msg.to, str(rslt))
                         if msg.text == "/battle":
                             client.sendText(msg.to, "/join")
                         else:
